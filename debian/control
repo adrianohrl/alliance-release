@@ -1,0 +1,12 @@
+Source: ros-indigo-rqt-alliance
+Section: misc
+Priority: extra
+Maintainer: Adriano Henrique Rossette Leite <adrianohrl@unifei.edu.br>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-alliance, ros-indigo-alliance-msgs, ros-indigo-catkin, ros-indigo-roscpp, ros-indigo-roslint, ros-indigo-rqt-gui, ros-indigo-rqt-gui-cpp, ros-indigo-rqt-multiplot, ros-indigo-std-msgs
+Homepage: https://github.com/adrianohrl/rqt_alliance/wiki
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rqt-alliance
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-alliance, ros-indigo-alliance-msgs, ros-indigo-roscpp, ros-indigo-rqt-gui, ros-indigo-rqt-gui-cpp, ros-indigo-rqt-multiplot, ros-indigo-std-msgs
+Description: The rqt_alliance package
