@@ -1,0 +1,12 @@
+Source: ros-indigo-alliance
+Section: misc
+Priority: extra
+Maintainer: Adriano Henrique Rossette Leite <adrianohrl@unifei.edu.br>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-alliance-msgs, ros-indigo-catkin, ros-indigo-pluginlib, ros-indigo-roscpp
+Homepage: https://github.com/adrianohrl/alliance
+Standards-Version: 3.9.2
+
+Package: ros-indigo-alliance
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-alliance-msgs, ros-indigo-pluginlib, ros-indigo-roscpp
+Description: This package implements the ALLIANCE multi-robot task allocation architecture.
