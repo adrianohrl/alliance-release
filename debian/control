@@ -1,0 +1,12 @@
+Source: ros-indigo-alliance-msgs
+Section: misc
+Priority: extra
+Maintainer: Adriano Henrique Rossette Leite <adrianohrl@unifei.edu.br>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-std-msgs
+Homepage: https://github.com/adrianohrl/ruler/wiki
+Standards-Version: 3.9.2
+
+Package: ros-indigo-alliance-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime, ros-indigo-std-msgs
+Description: This package contains the definition of the message, service and action files of the alliance stack.
